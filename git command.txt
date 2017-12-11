@@ -1,0 +1,69 @@
+git account
+
+set user name
+-------------
+$ git config --global user.name "wasif bin jonaid"
+
+set user email
+--------------
+$ git config --global user.email "bjwasi00@gmail.com"
+
+git account settings
+--------------------
+$ git config --list
+
+git init repository
+-------------------
+$ git init
+
+git hidden files
+----------------
+$ ls -la
+
+add changes to git
+------------------
+$ git add .
+
+save changes to git
+-------------------
+$ git commit -m "comment about the file"
+
+
+view commit history
+-------------------
+$ git log
+
+view from one person
+--------------------
+$git log --author="wasif"
+
+check status
+------------
+$git status
+
+check the changes
+-----------------
+$ git diff
+
+Delete a file
+-------------
+
+$ git rm file.txt
+
+Rename and Remove file
+----------------------
+$ git mv first.txt
+$ git mv first.txt home/index.txt
+
+direct commit
+-------------
+$ git commit -am "my comment"
+
+recover file with checkout
+--------------------------
+$ git checkout -- index.html
+
+
+switch between commits
+----------------------
+$ git checkout log id -- file.txt
